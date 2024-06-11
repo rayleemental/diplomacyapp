@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Diplomacy Turn Tracker</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="reminder">Reminder: A Nation needs 18 Control Points to win.</div>
+    <div>
+        <div class="turn-display" id="turnDisplay">Spring 1901</div>
+        <div class="phase-display" id="phaseDisplay">Diplomacy Phase</div>
+        <button id="nextPhaseButton">NEXT PHASE</button>
+    </div>
+    <div class="grid-container">
+        <div class="england">
+            <div>England</div>
+            <div class="cp-input">
+                <input type="number" id="englandCP" value="3" min="0">
+            </div>
+        </div>
+        <div class="france">
+            <div>France</div>
+            <div class="cp-input">
+                <input type="number" id="franceCP" value="3" min="0">
+            </div>
+        </div>
+        <div class="germany">
+            <div>Germany</div>
+            <div class="cp-input">
+                <input type="number" id="germanyCP" value="3" min="0">
+            </div>
+        </div>
+        <div class="italy">
+            <div>Italy</div>
+            <div class="cp-input">
+                <input type="number" id="italyCP" value="3" min="0">
+            </div>
+        </div>
+        <div class="austria">
+            <div>Austria</div>
+            <div class="cp-input">
+                <input type="number" id="austriaCP" value="3" min="0">
+            </div>
+        </div>
+        <div class="russia">
+            <div>Russia</div>
+            <div class="cp-input">
+                <input type="number" id="russiaCP" value="4" min="0">
+            </div>
+        </div>
+        <div class="turkey">
+            <div>Turkey</div>
+            <div class="cp-input">
+                <input type="number" id="turkeyCP" value="3" min="0">
+            </div>
+        </div>
+    </div>
+    <button id="resetButton">RESET</button>
+    <a href="nextphase.html" id="nextPageButton">NEXT PAGE</a>
+    <script src="script.js"></script>
+</body>
+</html>
