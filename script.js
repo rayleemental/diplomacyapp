@@ -17,7 +17,7 @@ let year = 1901;
 let nextPhaseButton = document.getElementById("nextPhaseButton");
 let resetButton = document.getElementById("resetButton");
 
-\
+
 function updateTurnDisplay() {
     document.getElementById("turnDisplay").innerText = `${season.name} ${year}`;
     document.getElementById('phaseDisplay').innerText = `${phase} Phase`;
