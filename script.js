@@ -38,7 +38,7 @@ let timeRemaining = 0;
 let timeInterval;
 let startTimerButton = document.getElementById('startTimerButton');
 const timers = new Map([
-  ['diplo', 14],
+  ['diplo', 17],
   ['write', 4],
   ['resol', 8],
   ['build', 5],
